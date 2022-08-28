@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Matemática</h1>
+        
+    </header>
+        <div class="row">
+            <div class="questão">
+                <form method="POST" id="awnser">
+
+                    <h2>Questão 1</h2>
+
+                <div>Quanto é 5 + 5 ?</div>
+            <p>
+                <input type="radio" id="a" name="resposta" value="a">
+                <label for="a">a) 15</label>
+            </p>
+
+            <p>
+                <input type="radio" id="b" name="resposta" value="b">
+                <label for="b">b) 8</label>
+            </p>
+
+            <p>
+                <input type="radio" id="c" name="resposta" value="c" data-resultado="true">
+                <label for="c">c) 10</label>
+            </p>
+
+            <p>
+                <input type="radio" id="d" name="resposta" value="d">
+                <label for="d">d) -32</label>
+            </p>
+            <input type="submit" nome="Validar" value="Validar">
+            <p><button id="refresh" onclick="atualizar">Tentar Novamente</button></p>
+        </div> 
+    </div>
+    <div class="verde">Certo</div>
+    <div class="vermelho">Errado</div>
+    <footer>&copy; By Bruno Eufrásio</footer>
+    
+</body>
+</html>
