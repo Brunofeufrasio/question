@@ -10,14 +10,12 @@
         
 
         if (resultado.selecionado == resultado.certo) {
-            window.alert('Parabens! Fez mais que sua obrigação!')
-            $(resultado.selecionado).parent().css("backgroundColor","green")
-            $(resultado.selecionado).parent().css("color","white")
+            $(resultado.selecionado).parent().css("backgroundColor","#00800054")
+           
 
         } else   {
-            alert('Resposta Errada! BURRO!')
-            $(resultado.selecionado).parent().css("backgroundColor","red")
-            $(resultado.selecionado).parent().css("color","white")
+            $(resultado.selecionado).parent().css("backgroundColor","#ff00004d")
+           
         } 
 
 
@@ -25,6 +23,7 @@
         btn.addEventListener("click",() => {
             location.reload()
         })
+        
 
         
         $("input[type=submit]").prop("disabled",true);
