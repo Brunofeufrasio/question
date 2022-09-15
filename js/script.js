@@ -9,7 +9,7 @@
         }
 
         if (resultado.selecionado == resultado.Nselecionado ) {
-            alert('Marque uma das alternativas')
+            alert(' [Erro] Marque uma das alternativas!')
             return [0]
         }   
 
@@ -27,8 +27,6 @@
         btn.addEventListener("click",() => {
             location.reload()
         })
-        
-
         
         $("input[type=submit]").prop("disabled",true);
         $("input[type=radio]").prop("disabled",true);
