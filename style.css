@@ -14,16 +14,16 @@ header {
 h1 {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.596), transparent);
     border-radius: 5px;
-    width: 80%;
+    width: 89%;
     margin: auto;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 h2 {
     margin: auto;
     width: 80%;
-    background-image: linear-gradient(to right, rgba(80, 98, 255, 0.521), transparent);
+    background-image: linear-gradient(to right, #5062ff85, transparent);
     font-size: 25pt;
     color: white;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.322);
