@@ -5,7 +5,8 @@
         const resultado = {
             selecionado: $("input:checked")[0],
             certo: $("[data-resultado= true")[0],
-            Nselecionado: $("")[0]
+            Nselecionado: $("")[0],
+            
         }
 
         if (resultado.selecionado == resultado.Nselecionado ) {
@@ -15,7 +16,7 @@
 
         else if (resultado.selecionado == resultado.certo) {
             $(resultado.selecionado).parent().css("backgroundColor","#0080003a")
-           
+                 
 
         } else   {
             $(resultado.selecionado).parent().css("backgroundColor","#ff00004d")
