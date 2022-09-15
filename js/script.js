@@ -4,7 +4,7 @@
 
         const resultado = {
             selecionado: $("input:checked")[0],
-            certo:  $("[data-resultado= true")[0],
+            certo: $("[data-resultado= true")[0],
             Nselecionado: $("")[0]
         }
 

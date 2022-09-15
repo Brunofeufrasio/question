@@ -8,13 +8,32 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.267);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.582);
+}
+
+h1 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.596), transparent);
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
 h2 {
+    margin: auto;
+    width: 500px;
+    background-image: linear-gradient(to right, rgba(80, 98, 255, 0.521), transparent);
     font-size: 25pt;
-    color: rgb(80, 98, 255);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .row {
