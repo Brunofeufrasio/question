@@ -14,7 +14,7 @@ header {
 h1 {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.596), transparent);
     border-radius: 5px;
-    width: 500px;
+    width: 80%;
     margin: auto;
     padding: 10px;
     margin-bottom: 50px;
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     margin: auto;
-    width: 500px;
+    width: 80%;
     background-image: linear-gradient(to right, rgba(80, 98, 255, 0.521), transparent);
     font-size: 25pt;
     color: white;
